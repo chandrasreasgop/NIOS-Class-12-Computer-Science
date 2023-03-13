@@ -1,0 +1,282 @@
+3. Write a C++ program to accept two numbers, a float and an integer and display the
+following :-
+a) Sum of two numbers in integer form.
+b) Sum of two numbers in float form
+
+
+4. Write a C++ program that accepts radius and then displays the area and perimeter
+of a circle. Consider “Pi” as a constant with value 3.14
+
+
+5. Write a C++ program to accept a number. Using conditional operator print
+whether the number is even or odd
+
+
+6. Write a C++ program to accept a character. Print whether the character is an
+alphabet, digit, or a special character. Display appropriate messages.
+
+
+7. Write a C++ program to accept a number and display the corresponding number
+of week day
+E.g., If the user enters “1” display “ Monday”, if the user enters “2” display “
+Tuesday”…… and so on.
+
+
+8. Write a C++ program (using while loop ) to display all the multiples of 5 from 100
+to 50.
+
+
+9. Write a program using do..while loop to display the Fibonacci series 0, 1, 1, 2, 3,
+5… n
+
+
+10. Write a C++ program using for loop to find whether the number is an Armstrong
+number or not.
+
+
+11. Write a menu driven program to swap two numbers using call by value and call by
+reference.
+
+
+12. Create three functions by the name CALCULATE() according to the prototypes
+given below:
+# void CALCULATE(int) // to check whether the argument being
+passed is even or odd
+# int CALCULATE(int, int) // to return the sum of two numbers being
+passed as arguments.
+# void CALCULATE() // to display the message “ YOU ARE
+DOING GREAT”
+
+
+13. Write a C++ program to accept two strings and do the following:
+    1. Compare the two Strings
+    2. Display the length of the strings
+    3. Append the strings.
+
+
+14. Write a C++ program to accept ten numbers using an array. Search for a number
+in an array using binary search method.
+
+
+15. Write a C++ program to accept eight numbers in an array. Sort the numbers in
+ascending order using Bubble sort method. Also insert a number in the sorted
+array.
+
+
+16. Write a C++ program to accept two arrays and merge them to form a new array
+such that the new array contains the elements from both the arrays alternatively.
+
+
+17. Write a C++ program to accept 4 X 4 matrix and find the sum of odd numbers of
+the matrix.
+
+
+18. Create a structure named General_Date with day(int), month(string) and year(int)
+as its members. Create another structure named Employment_Exchange with
+application_no(int), Application_name(String), DOB(instance of General_Date),
+Qualification(String) and Family_income(float).
+Write a C++ program to accept the members of the structure
+Employment_Exchange. If the family income is less than 1000 then display the
+message “Eligible for Rozgar Yojna” else display for “ Not Eligible for Rozgar
+Yojna”
+
+
+19. Create a class named competition with the following members:-
+
+Private members
++------------------+----------------------+
+| Member Name      | Data Type            |
++------------------+----------------------+
+| learner_id       | integer              |
++------------------+----------------------+
+| learner_name     | string               |
++------------------+----------------------+
+| category         | char (junior/senior) |
++------------------+----------------------+
+| competition_name | string               |
++------------------+----------------------+
+| position         | integer              |
++------------------+----------------------+
+| points           | integer              |
++------------------+----------------------+
+
+Create a function calculate ( )- to assign the points according to the value of
+position given below:
++----------+-------+
+| Position | Point |
++----------+-------+
+| 1        | 10    |
++----------+-------+
+| 2        | 7     |
++----------+-------+
+| 3        | 5     |
++----------+-------+
+| >3       | 0     |
++----------+-------+
+
+Public members
+1. Create an appropriate function Accept() and Display() to accept and display
+data respectively.
+2. A constructor to initialize all the numerical members to 0 and all strings to
+“WELCOME”.
+Write a C++ program to implement the class defined above by creating an
+object.
+
+
+20. Create a class called COURSE with the following members:
++------------------+-----------+
+| Members          | Data Type |
++------------------+-----------+
+| Private members: |           |
++------------------+-----------+
+| course_id        | integer   |
++------------------+-----------+
+| course_name      | string    |
++------------------+-----------+
+| duration         | integer   |
++------------------+-----------+
+| fee              | float     |
++------------------+-----------+
+| Public memebrs:  |           |
++------------------+-----------+
+| void accept()    |           |
++------------------+-----------+
+
+Create a class called SR_SECONDARY which is publically inherited from the
+class COURSE and has the following members
++------------------+-----------+
+| Members          | Data Type |
++------------------+-----------+
+| Private members: |           |
++------------------+-----------+
+| subject1         | string    |
++------------------+-----------+
+| subject2         | string    |
++------------------+-----------+
+| subject3         | string    |
++------------------+-----------+
+| Public function: |           |
++------------------+-----------+
+| void enter()     |           |
++------------------+-----------+
+| void display()   |           |
++------------------+-----------+
+
+Define a class called VOCATIONAL that is protectedly derived from class
+SR_SECONDARY. The members of the class are as follows 
++--------------------+-----------+
+| Members            | Data Type |
++--------------------+-----------+
+| Private members:   |           |
++--------------------+-----------+
+| voc_name           | string    |
++--------------------+-----------+
+| requirement        | string    |
++--------------------+-----------+
+| age                | integer   |
++--------------------+-----------+
+| Public function:   |           |
++--------------------+-----------+
+| void voc_accept()  |           |
++--------------------+-----------+
+| void voc_display() |           |
++--------------------+-----------+
+
+Implement the above classes to accept and display data of Sr_Secondary class
+and vocational class
+
+
+21. Create a class called FOUR_WHEELER with the following members:
++-------------------+-----------+
+| Members Data type | Data Type |
++-------------------+-----------+
+| Private members:  |           |
++-------------------+-----------+
+| model_no          | integer   |
++-------------------+-----------+
+| colour            | string    |
++-------------------+-----------+
+| price             | integer   |
++-------------------+-----------+
+| engine_cc         | float     |
++-------------------+-----------+
+| Public function:  |           |
++-------------------+-----------+
+| void accept()     |           |
++-------------------+-----------+
+| void display()    |           |
++-------------------+-----------+
+
+Create a class called TWO_WHEELER with the following members:
++--------------------+-----------+
+| Members            | Data Type |
++--------------------+-----------+
+| Private members:   |           |
++--------------------+-----------+
+| type               | string    |
++--------------------+-----------+
+| HP                 | integer   |
++--------------------+-----------+
+| Public function:   |           |
++--------------------+-----------+
+| void two_accept()  |           |
++--------------------+-----------+
+| void two_display() |           |
++--------------------+-----------+
+
+Create a class called MOTOR_VEHICLE that is derived in protected mode
+protectedly from FOUR_WHEELER and in public mode TWO_WHEELER.
+The members of the class MOTOR_VEHICLE are as follows :
++----------------------+-----------+
+| Members              | Data Type |
++----------------------+-----------+
+| Private members:     |           |
++----------------------+-----------+
+| HP                   | string    |
++----------------------+-----------+
+| protected members:   |           |
++----------------------+-----------+
+| category             | string    |
++----------------------+-----------+
+| Public function:     |           |
++----------------------+-----------+
+| void motor_accept()  |           |
++----------------------+-----------+
+| void motor_display() |           |
++----------------------+-----------+
+
+Implement the above class hierarchy.
+
+
+23. Write a C++ program to reverse a number using pointers.
+
+
+24. Write a C++ program to accept an integer array of size 10. Display the squares of
+all the elements by using a pointer to the array.
+
+
+25. Define a class LIBRARY with the following members:
++-------------+-----------+
+| Members     | Data Type |
++-------------+-----------+
+| book_id     | integer   |
++-------------+-----------+
+| author_name | string    |
++-------------+-----------+
+| issue_date  | string    |
++-------------+-----------+
+| fine        | integer   |
++-------------+-----------+
+| return_date | string    |
++-------------+-----------+
+Also define appropriate member functions to accept and display the data members
+of the class.
+Write a C++ program to accept and write data of the class LIBRARY to the file
+“LIB.DAT”. The program should also be able to display data stored in the file.
+
+
+26. Gita is running a departmental store in her colony. She wants to computerize the
+billing system. Consider a class containing suitable members and associated
+functions. The program should store details of all the bills in the file “BILL.dat”.
+Also a discount of 10% on the net bill amount should be given to all the customers
+whose net bill amount exceeds Rs 2000.
