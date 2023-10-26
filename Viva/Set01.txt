@@ -1,8 +1,143 @@
-1. What is the difference between a compiler and an interpreter? 
-- A compiler is a program that translates the source code of a program into an executable file that can run on a machine. An interpreter is a program that executes the source code of a program line by line without producing an executable file.
+1. Explain the concept of a programming language. Give examples of high-level and low-level programming languages.
+Answer:
+A programming language is a formal language used to communicate instructions to a computer. High-level languages are designed to be easy for humans to read and write, such as Python and Java. Low-level languages, like Assembly language, are closer to machine code and are more difficult for humans to read and write directly.
 
-2. What are the advantages and disadvantages of object-oriented programming? 
-- Object-oriented programming is a paradigm that organizes data and behavior into reusable units called objects. Some advantages of object-oriented programming are: 
+2. What is the difference between a compiler and an interpreter in the context of programming languages?
+Answer:
+A compiler translates the entire source code into machine code before execution, generating an executable file. An interpreter, on the other hand, interprets the source code line by line during execution without generating an intermediate machine code file.
+
+3. Describe the process of compiling and running a C++ program.
+Answer:
+To compile a C++ program, use a C++ compiler like g++, followed by the source code filename (e.g., g++ program.cpp -o program). To run the compiled program, type ./program in the terminal.
+
+4. Explain the purpose of the "iostream" library in C++. How do you include it in your C++ program?
+Answer:
+The "iostream" library in C++ provides input and output operations. It is included in a C++ program using the #include <iostream> preprocessor directive.
+
+5. Define a variable in C++. Provide examples of different data types used in C++.
+Answer:
+A variable in C++ is a storage location with an associated symbolic name (an identifier) that contains a value. Example data types include int (integer), float (floating-point number), char (character), and bool (Boolean).
+
+6. What is the significance of the "main" function in a C++ program? How is it declared and defined?
+Answer:
+The "main" function is the entry point of a C++ program. It is declared as int main() and defined with curly braces {}. All C++ programs start executing from the "main" function.
+
+7. Discuss the differences between global and local variables in C++.
+Answer:
+Global variables are declared outside of any function and can be accessed throughout the program. Local variables are declared inside functions and are only accessible within the function where they are defined.
+
+8. How do you input data from the keyboard in a C++ program? Provide code examples.
+Answer:
+Data can be input from the keyboard in C++ using the cin object. For example:
+
+int number;
+cin >> number;
+
+9. Explain the use of control structures in programming. Give examples of conditional statements in C++.
+Answer:
+Control structures, like loops and conditional statements, are used to control the flow of a program. Examples of conditional statements in C++ include if, else if, and else.
+
+10. Describe the concept of loops in C++. Provide examples of "for" and "while" loops.
+Answer:
+Loops in C++ allow executing a block of code repeatedly. 
+
+Example "for" loop:
+
+for(int i = 0; i < 5; i++) {
+    // code to be executed
+}
+
+
+Example "while" loop:
+
+int i = 0;
+while(i < 5) {
+    // code to be executed
+    i++;
+}
+
+11. What is an array in C++? How do you declare and initialize an array?
+Answer:
+An array in C++ is a collection of elements of the same data type. It is declared and initialized as follows:
+
+int numbers[5] = {1, 2, 3, 4, 5};
+
+12. Explain the concept of functions in C++. How are functions defined and called in a program?
+Answer:
+Functions in C++ are reusable blocks of code. They are defined with a return type, name, parameters, and body. Example function definition:
+
+int add(int a, int b) {
+    return a + b;
+}
+To call a function: int result = add(3, 5);
+
+13. Discuss the difference between call by value and call by reference in function arguments.
+Answer:
+In call by value, the actual value is passed to the function. In call by reference, the memory address (reference) of the variable is passed. Changes made inside a function using call by value do not affect the original variable, whereas changes made using call by reference affect the original variable.
+
+14. What is the purpose of the "return" statement in a function in C++? Provide an example.
+Answer:
+The "return" statement is used to return a value from a function. Example:
+
+int square(int num) {
+    return num * num;
+}
+
+15. Describe the concept of object-oriented programming (OOP). Explain the key principles of OOP.
+Answer:
+OOP is a programming paradigm based on the concept of objects, which can encapsulate data and behavior. Key principles include encapsulation, inheritance, and polymorphism.
+
+16. What is a class and an object in C++? Provide an example of a class definition and object creation.
+Answer:
+A class is a user-defined data type that defines a blueprint for objects. Example class definition:
+
+class Car {
+public:
+    int speed;
+    void setSpeed(int s) {
+        speed = s;
+    }
+};
+Object creation: Car myCar;
+
+17. Explain the concept of inheritance in C++. How does it promote code reuse?
+Answer:
+Inheritance allows a class (subclass) to inherit properties and behaviors from another class (superclass). It promotes code reuse by enabling the reuse of existing class features in a new class without rewriting the code.
+
+18. What are constructors and destructors in C++ classes? How are they defined and used?
+Answer:
+Constructors are special member functions used for initializing objects. Destructors are used for cleaning up resources when an object goes out of scope. Constructors have the same name as the class and do not have a return type. Destructors have the same name as the class preceded by a tilde (~).
+
+19. Discuss the use of file handling in C++. How do you open, read, and write to a file?
+Answer:
+File handling in C++ involves opening a file using fstream, reading from it using >> or getline(), and writing to it using <<. Example:
+
+#include <fstream>
+#include <iostream>
+using namespace std;
+
+int main() {
+    ofstream myfile("example.txt");
+    myfile << "Writing to a file in C++.";
+    myfile.close();
+
+    ifstream inputFile("example.txt");
+    string line;
+    while (getline(inputFile, line)) {
+        cout << line << endl;
+    }
+    inputFile.close();
+
+    return 0;
+}
+
+20. What is the difference between a compiler and an interpreter? 
+Answer:
+A compiler is a program that translates the source code of a program into an executable file that can run on a machine. An interpreter is a program that executes the source code of a program line by line without producing an executable file.
+
+21. What are the advantages and disadvantages of object-oriented programming? 
+Answer:
+Object-oriented programming is a paradigm that organizes data and behavior into reusable units called objects. Some advantages of object-oriented programming are: 
   - It supports abstraction, encapsulation, inheritance and polymorphism, which make the code more modular, readable and maintainable. 
   - It facilitates code reuse and reduces redundancy. 
   - It enables the creation of complex systems using simple components. 
@@ -11,8 +146,9 @@ Some disadvantages of object-oriented programming are:
   - It may not be suitable for some problems that require low-level manipulation or performance optimization. 
   - It may introduce complexity and ambiguity due to multiple inheritance, dynamic binding and other features.
 
-3. What are the basic components of a computer system? 
-- A computer system consists of four basic components: 
+22. What are the basic components of a computer system? 
+Answer:
+A computer system consists of four basic components: 
   - Input devices, such as keyboard, mouse, scanner, etc., that allow the user to enter data and commands into the system. 
   - Output devices, such as monitor, printer, speaker, etc., that display or produce the results of processing. 
   - Central Processing Unit (CPU), which is the brain of the system that performs arithmetic and logical operations on data and controls the execution of instructions. 
