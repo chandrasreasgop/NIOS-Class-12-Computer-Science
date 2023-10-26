@@ -1,0 +1,19 @@
+1. What is the difference between a compiler and an interpreter? 
+- A compiler is a program that translates the source code of a program into an executable file that can run on a machine. An interpreter is a program that executes the source code of a program line by line without producing an executable file.
+
+2. What are the advantages and disadvantages of object-oriented programming? 
+- Object-oriented programming is a paradigm that organizes data and behavior into reusable units called objects. Some advantages of object-oriented programming are: 
+  - It supports abstraction, encapsulation, inheritance and polymorphism, which make the code more modular, readable and maintainable. 
+  - It facilitates code reuse and reduces redundancy. 
+  - It enables the creation of complex systems using simple components. 
+Some disadvantages of object-oriented programming are: 
+  - It may incur more memory and processing overhead due to the creation and management of objects. 
+  - It may not be suitable for some problems that require low-level manipulation or performance optimization. 
+  - It may introduce complexity and ambiguity due to multiple inheritance, dynamic binding and other features.
+
+3. What are the basic components of a computer system? 
+- A computer system consists of four basic components: 
+  - Input devices, such as keyboard, mouse, scanner, etc., that allow the user to enter data and commands into the system. 
+  - Output devices, such as monitor, printer, speaker, etc., that display or produce the results of processing. 
+  - Central Processing Unit (CPU), which is the brain of the system that performs arithmetic and logical operations on data and controls the execution of instructions. 
+  - Memory, which is the storage area that holds data and instructions temporarily or permanently.
