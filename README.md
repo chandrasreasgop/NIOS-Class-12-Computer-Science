@@ -1,10 +1,60 @@
-# NIOS Class 12 Computer Science
+# NIOS Board Senior Secondary Computer Science Exam (330) Practical Questions and Solutions in C++
 
-The Senior Secondary course offered by NIOS offers the Computer Science subject under the source code 330.  
+This repository contains the practical questions and their corresponding solutions in C++ for the Senior Secondary Computer Science Exam of the National Institute of Open Schooling (NIOS) Board. The exam is conducted for the students who have opted for the Computer Science subject with the code 330. The exam aims to assess the student's understanding and skills in programming, data structures, algorithms, databases, networking, and other related topics.
 
+## The exam has the following mark distribution:
 
-## Mark Distribution
+| Component | Marks |
+|-----------|-------|
+| TMA       | 12    |
+| Theory    | 60    |
+| Practical | 40    |
+| Total     | 100   |
+### TMA: 
+The TMA (Tutor Marked Assignment) is a home-based assignment that the students have to submit before the theory exam. The TMA consists of 6 questions, each carrying 2 marks. The questions are based on the topics covered in the theory syllabus.
+### THEORY:
+The theory exam is a written exam that covers the entire syllabus of the subject. The theory exam has 15 questions, out of which 10 are compulsory and 5 are optional. The compulsory questions are of short answer type, each carrying 2 marks. The optional questions are of long answer type, each carrying 6 marks. The duration of the theory exam is 3 hours.
+### PRACTICAL:
+The practical exam consists of a written test and a viva voce. The written test has 10 questions, each carrying 4 marks. The questions are based on the programs that the students have to write using C++. The viva voce has 10 questions, each carrying 2 marks. The questions are based on the concepts and terms related to computer science. The duration of the practical exam is 3 hours.
 
-|         Subject        | TMA (20% of Theory) | Theory | Practical | Total |
-|:----------------------:|:-------------------:|:------:|:---------:|:-----:|
-| Computer Science (330) |          12         |   60   |     40    |  100  |
+The source code of the programs for the written test is provided in this repository in the `Practical` directory. Each program file has a comment at the beginning that states the question number and the problem statement. The programs are written in C++ and can be compiled and executed using any standard C++ compiler. The programs demonstrate the use of various data types, operators, control structures, functions, arrays, strings, pointers, structures, classes, inheritance, polymorphism, file handling, and exception handling in C++.
+
+The solutions for the viva voce are also provided in this repository in the `Viva` directory. Each solution file has a comment at the beginning that states the question number and the question. The solutions are written in plain English and explain the concepts and terms related to computer science. The solutions cover topics such as data structures, algorithms, complexity analysis, sorting, searching, hashing, recursion, trees, graphs, stacks, queues, linked lists, databases, SQL, normalization, networking, protocols, TCP/IP model, OSI model, web development, HTML, CSS, JavaScript, PHP, and security.
+
+To compile and run the C++ programs using g++, you need to install g++ on your system. g++ is a part of GCC (GNU Compiler Collection), which is a free and open-source software that supports various programming languages such as C++, C, Java, Fortran, etc.
+
+## To install g++ on Windows:
+
+- Download MinGW (Minimalist GNU for Windows) from https://sourceforge.net/projects/mingw/
+- Run the installer and select g++ from the list of packages
+- Add MinGW/bin to your system path
+- Open a command prompt and type `g++ --version` to verify that g++ is installed
+
+## To install g++ on Linux:
+
+- Most Linux distributions come with g++ pre-installed. If not, you can use your package manager to install it
+- For example, on Ubuntu or Debian-based systems you can use `sudo apt-get install g++`
+- On Fedora or Red Hat-based systems you can use `sudo yum install gcc-c++`
+- Open a terminal and type `g++ --version` to verify that g++ is installed
+
+## To install g++ on Mac:
+
+- You need to install Xcode (Apple's development environment) from https://developer.apple.com/xcode/
+- Xcode comes with g++ and other tools
+- Open a terminal and type `g++ --version` to verify that g++ is installed
+
+## To compile a C++ program using g++, you need to use the following command:
+
+`g++ -o output_file input_file.cpp`
+
+where output_file is the name of the executable file that will be generated and input_file.cpp is the name of the source code file that contains your program.
+
+## To run a C++ program after compiling using g++, you need to use the following command:
+
+`./output_file`
+
+where output_file is the name of the executable file that was generated by g++. You may need to add `./` before output_file to indicate that it is in the current directory.
+
+---
+
+***NOTE: This repository is intended to help the students prepare for the practical exam and to revise their knowledge of C++. It is not a substitute for learning the subject from the prescribed textbooks and other sources. The students are advised to practice the programs and solutions independently and verify their correctness and efficiency.***
